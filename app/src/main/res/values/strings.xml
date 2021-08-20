@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyTasks</string>
+    <string name="task_details_label">Task:</string>
+    <string name="task_title_hint">Enter a title for your task.</string>
+    <string name="task_done_label">Completed</string>
+    <string name="date_picker_title">Date of task:</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d tasks</string>
+    <string name="task_description_hint">Enter a description for your task.</string>
+    <string name="empty_title">You must enter a title.</string>
+    <string name="delete_task">Delete task</string>
+    <string name="task_responsibility_text">Choose the person responsible</string>
+    <string name="task_report_text">Send Task Report</string>
+    <string name="task_report">%1$s. The task was created on %2$s. %3$s, and %4$s</string>
+    <string name="task_report_complete">The task is completed</string>
+    <string name="task_report_incomplete">The task is incomplete</string>
+    <string name="task_report_no_responsibility">There is nobody responsible.</string>
+    <string name="task_report_responsibility">the person responsible is %s.</string>
+    <string name="remove_responsibility_text">Remove person responsible</string>
+    <string name="task_report_subject">MyTasks Task Report</string>
+    <string name="send_report">Send task report via</string>
+    <string name="enable_notifications">Enable notifications</string>
+    <string name="time_picker_title">Time of task:</string>
+    <string name="delete_all_tasks_text">Delete all tasks</string>
+    <string name="sort_tasks_title_text">Sort tasks alphabetically</string>
+    <string name="sort_tasks_date_text">Sort tasks by date</string>
+    <string name="sort_tasks_done_text">Sort tasks by completion</string>
+    <string name="new_task_text">New Task</string>
+    <string name="task_time">Task Time</string>
+
+</resources>

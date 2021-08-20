@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9ede3">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                    <ImageView
+                        android:id="@+id/task_photo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#ffffff"
+                        android:cropToPadding="true"
+                        android:scaleType="centerInside"/>
+
+                    <ImageButton
+                        android:id="@+id/task_camera"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/camera"
+                        android:layout_margin="2dp"
+                        android:background="#f9ede3"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="?android:listSeparatorTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/task_details_label"/>
+
+                <EditText
+                    android:id="@+id/task_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/task_title_hint"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/task_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/task_description_hint"/>
+
+        <Button
+            android:id="@+id/task_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="#caae98"/>
+        <Button
+            android:id="@+id/task_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="#caae98 "/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/task_done"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:button="@null"
+                android:background="?android:attr/listChoiceIndicatorMultiple"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/task_done_label"
+                android:gravity="center_vertical"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+>
+
+       <Button
+           android:id="@+id/task_responsibility"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#8fe67a"
+           android:layout_margin="6dp"
+           android:text="@string/task_responsibility_text"/>
+
+       <Button
+           android:id="@+id/remove_responsibility"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#ff696c"
+           android:layout_margin="6dp"
+           android:text="@string/remove_responsibility_text"/>
+
+        <Button
+            android:id="@+id/task_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#caae98 "
+            android:layout_margin="6dp"
+            android:text="@string/task_report_text"/>
+
+        </LinearLayout>
+
+
+
+
+
+        <Button
+            android:id="@+id/delete_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fd4949"
+            android:layout_margin="6dp"
+            android:text="@string/delete_task" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

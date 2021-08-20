@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/new_task"
+        android:title="@string/new_task_text"
+        android:icon="@drawable/plus"
+        app:showAsAction="ifRoom"/>
+
+    <item
+
+        android:id="@+id/show_subtitle"
+        android:title="@string/show_subtitle"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/delete_all_tasks"
+        android:title="@string/delete_all_tasks_text"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/sort_tasks_title"
+        android:title="@string/sort_tasks_title_text"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/sort_tasks_date"
+        android:title="@string/sort_tasks_date_text"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/sort_tasks_done"
+        android:title="@string/sort_tasks_done_text"
+        app:showAsAction="never"/>
+
+
+</menu>
